@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-check-label {
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+.list-group-item h5 {
+    margin-bottom: 5px;
+}
+
+.list-group-item p {
+    margin: 2px 0;
+}
+
+.btn-warning,
+.btn-danger {
+    margin-left: 5px;
+}
+
+.btn-warning {
+    margin-right: 5px;
+}
+.img-thumbnail {
+    margin-top: 10px;
+    max-width: 200px;
+}

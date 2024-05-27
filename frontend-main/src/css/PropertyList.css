@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.property-list-container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header .btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Filters Container */
+.filters-container {
+    margin-bottom: 20px;
+}
+
+.filters-container h3 {
+    margin-bottom: 10px;
+}
+
+.filters-container .filter-item {
+    margin-bottom: 10px;
+}
+
+.filters-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Property Card Styles */
+.property-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.property-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.property-card h3 {
+    margin-top: 0;
+}
+
+.property-card .property-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.property-details {
+    margin-bottom: 10px;
+}
+
+.property-details p {
+    margin: 5px 0;
+}
+
+.interested-button,
+.like-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.interested-button {
+    background-color: #3498db;
+}
+
+.interested-button:hover {
+    background-color: #2980b9;
+}
+
+.like-button {
+    background-color: #e74c3c;
+}
+
+.like-button:hover {
+    background-color: #c0392b;
+}
+
+.seller-details {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.seller-details p {
+    margin: 5px 0;
+}
